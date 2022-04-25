@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_practice/Episode76/pages/homePage.dart';
+import 'package:getx_practice/Episode77/pages/homePage.dart';
 
 void main() {
   runApp(const HomePage());

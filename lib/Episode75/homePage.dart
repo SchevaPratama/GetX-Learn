@@ -34,6 +34,7 @@ class CounterPage extends StatelessWidget {
         child: GetBuilder<CounterContoller>(
           // initState: (state) => print('Init state'),
           // didChangeDependencies: (state) => print('Did change depedencies'),
+          // DIdupdatewiget rarely used caused we have to use statefull to make this function works
           // didUpdateWidget: (oldWidget, state) => print('Did update widget'),
           // dispose: (state) => print('Dispose'),
           init: CounterContoller(),
