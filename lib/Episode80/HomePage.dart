@@ -24,10 +24,12 @@ class MainPage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            Get.dialog(AlertDialog(
-              title: Text("It's Title"),
-              content: Text("It's Content"),
-            ));
+            Get.dialog(
+              AlertDialog(
+                title: Text("It's Title"),
+                content: Text("It's Content"),
+              ),
+            );
             // Get.defaultDialog(
             //   barrierDismissible: false,
             //   title: "It's Title",
